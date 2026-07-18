@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+  int a;
+  cin>>a;
+
+  while(a--){
+    cout<<"Hello, World!\n";
+  }
+}
+
+***If here a=3 how while loop understand that when it has to stop??
+---Any value (like a=2) while loop cosider as 1(true), when a=0 loop consider it as 0(false). So, it gets terminated.
